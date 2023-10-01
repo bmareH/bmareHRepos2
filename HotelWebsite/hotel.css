@@ -1,0 +1,146 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Style the header navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    word-spacing: 4px;
+    left: 10px;
+    
+}
+
+/* Style the hero section */
+.hero {
+    height: 500px;
+    background-image: url('hotelBG.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.hero a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style room categories */
+.room-categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.room {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.room img {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.room h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.room p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.room .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.room a {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Style guest experience section */
+.guest-experience {
+    background-image: url('D:\hotelWelcome.jpg');
+    padding: 40px 0;
+    text-align: center;
+}
+
+.guest-experience h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Style footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+#logo {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    float: right;
+}
+#amen {
+    border: 5px solid aqua;
+    width: 99%;
+}
